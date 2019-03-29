@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Factura"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/tv_userResult"
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content" android:text="Usuario: "/>
+    <TextView
+        android:id="@+id/tv_emailResult"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Correo: "/>
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Total: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Detalle de productos"/>
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        >
+
+        <Button
+            android:id="@+id/btn1_i"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 1: "
+            android:background="#bc1f26"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            />
+        <Button
+            android:id="@+id/btn2_i"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 2: "
+            android:background="#8b164f"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+        <Button
+            android:id="@+id/btn3_i"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 3: "
+            android:background="#4b2087"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+        <Button
+            android:id="@+id/btn4_i"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 4: "
+            android:background="#30268d"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+        <Button
+            android:id="@+id/btn5_i"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 5: "
+            android:background="#172b7a"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+        <Button
+            android:id="@+id/btn6_i"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 6: "
+            android:background="#004b9c"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+        <Button
+            android:id="@+id/btn7_i"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 7: "
+            android:background="#005996"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+        <Button
+            android:id="@+id/btn8_i"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 8: "
+            android:background="#006063"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+        <Button
+            android:id="@+id/btn9_i"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Producto 9:"
+            android:background="#004e43"
+            android:layout_margin="15dp"
+            android:textColor="#fff"
+            android:textSize="10sp"
+
+            />
+
+    </GridLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/btnshare"/>
+
+</LinearLayout>
